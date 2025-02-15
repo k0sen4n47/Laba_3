@@ -16,7 +16,7 @@ from datetime import datetime, timedelta, timezone
 app = FastAPI()
 
 # Настройка базы данных MySQL
-SQLALCHEMY_DATABASE_URL = "mysql+pymysql://isp_r_Morozova:12345@77.91.86.135/isp_r_Morozova"
+SQLALCHEMY_DATABASE_URL = "mysql+pymysql://isp_r_Tyulkin:12345@77.91.86.135/isp_r_Tyulkin"
 SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
